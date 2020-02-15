@@ -1,0 +1,17 @@
+.list-container {
+
+
+    >.container {
+        padding: 30px 0;
+        height: calc(100% - 42px - 197px);
+
+        .row {
+            height: calc(100% - 54px);
+            overflow: auto;
+        }
+
+        .pagination {
+            margin-bottom: 0;
+        }
+    }
+}
