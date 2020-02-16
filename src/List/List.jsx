@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import TopNav from '../SideNav/SideNav';
 import './List.scss';
 import Item from './Item/Item';
-import Pagination from './Pagination/Pagination';
 import Jumbotron from '../components/Jumbotron/Jumbotron';
 import ContactModal from '../components/ContactModal/ContactModal';
-const list = new Array(10).fill({ name: 'Placeholder', id: 996, price: 998 });
+// import Pagination from './Pagination/Pagination';
+import { oppo } from '../data/oppo';
 export class List extends Component {
     // constructor() {
     //     super();
@@ -13,6 +13,22 @@ export class List extends Component {
     // }
 
     render() {
+        const brandName = this.props.match.params.brand;
+
+        let list;
+        switch (brandName) {
+            case 'oppo':
+                list = oppo;
+                break;
+            case '华为':
+                list = []; break;
+            case 'vivo': list = []; break;
+            case '配件专区': list = []; break;
+            default:
+                //所有产品
+                list = [];
+                break;
+        }
         const displayList = list.map((ele, index) => (
             <div
                 key={ index } className="col-md-3 col-sm-4">
@@ -28,7 +44,7 @@ export class List extends Component {
                     <div className="row">
                         { displayList }
                     </div>
-                    <Pagination></Pagination>
+                    {/* <Pagination></Pagination> */ }
                 </div>
             </div>
         );

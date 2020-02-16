@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 const SideNav = () => {
     return (
         <div className="side-nav">
-            <ul className="nav nav-tabs">
-                <li className="active" role="presentation"><Link href="">oppo</Link></li>
-                <li role="presentation"><Link href="#">vivo</Link></li>
-                <li role="presentation"><Link href="#">华为</Link></li>
-                <li role="presentation"><Link href="#">苹果</Link></li>
-                <li role="presentation"><Link href="#">荣耀</Link></li>
-                <li role="presentation"><Link href="#">配件专区</Link></li>
+            <ul className="nav ">
+                <Link to='/list/all' className="nav-link">全部手机</Link>
+                <Link to="/list/oppo" className="nav-link " >oppo</Link>
+                <Link to="/list/vivo" className="nav-link" >vivo</Link>
+                <Link to="/list/华为" className="nav-link" >华为</Link>
+                <Link to="/list/配件专区" className="nav-link" >配件专区</Link>
             </ul>
         </div>
     );

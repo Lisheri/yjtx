@@ -5,5 +5,5 @@ import App from './App.jsx';
 import 'normalize.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import 'bootstrap';
+import 'bootstrap';
 ReactDOM.render( < App / > , document.getElementById('root'));

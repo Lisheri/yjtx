@@ -4,8 +4,12 @@ import './Details.scss';
 import { Link } from 'react-router-dom';
 import Left from './Left/Left';
 import ContactModal from '../components/ContactModal/ContactModal';
+import { oppo as serverData } from '../data/oppo';
 export class Details extends Component {
     render() {
+
+        const id = this.props.match.params.id;
+        const item = serverData.find(ele => ele.id == id);
         return (
             <div className='item-details-container full-height'>
                 <Jumbotron title={ 'asdas' }></Jumbotron>
@@ -20,12 +24,12 @@ export class Details extends Component {
                 </nav>
                 <div className="main-area container">
                     <div className="row full-height">
-                        <Left></Left>
+                        <Left img={ item.img }  ></Left>
                         <div className="col-md-4 right">
-                            <h1 >Find X</h1>
-                            <h3>简介........</h3>
+                            <h1 >{ item.name }</h1>
+                            <h3>￥{ item.price }</h3>
                             <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-                                联系商家,购买
+                                联系我们,购买
                             </button>
                         </div>
                     </div>
