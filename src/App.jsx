@@ -4,6 +4,7 @@ import Details from './Details/Details';
 import Footer from './Footer/Footer';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import './App.scss';
+//TODO: 搜索功能. 导入全部数据. 分页(解决载入错误). 美化界面.
 function App() {
   return (
     <Router>
