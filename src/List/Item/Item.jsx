@@ -13,7 +13,10 @@ const Item = ({ item }) => {
                 <h5 className="card-title">{ item.name }</h5>
                 <p className="card-text"><strong>$</strong>     { item.price }</p>
                 <Link to={ linkAdd } className="btn btn-primary">查看详情</Link>
-                <Link to={ linkAdd } className="btn btn-success buy-link">联系购买</Link>
+
+                <button type="button" className="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
+                    联系购买
+                    </button>
             </div>
         </div>
     );

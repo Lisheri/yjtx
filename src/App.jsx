@@ -2,8 +2,7 @@ import React from 'react';
 import List from './List/List'
 import Details from './Details/Details';
 import Footer from './Footer/Footer';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.scss';
 function App() {
   return (
