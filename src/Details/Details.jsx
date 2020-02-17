@@ -4,7 +4,7 @@ import './Details.scss';
 import { Link } from 'react-router-dom';
 import Left from './Left/Left';
 import ContactModal from '../components/ContactModal/ContactModal';
-import { oppo as serverData } from '../data/oppo';
+import serverData from '../data/oppo';
 export class Details extends Component {
     render() {
 
