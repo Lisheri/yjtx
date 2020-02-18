@@ -72,7 +72,7 @@ export class List extends Component {
         //搜索逻辑 有待提高
         const displayList = this.state.currentList.filter(ele => ele.name.toLowerCase().indexOf(this.state.filter.toLowerCase()) !== -1).map((ele, index) => (
             <div
-                key={ index } className="col-md-3 col-sm-4">
+                key={ index } className="col-sm-4 col-md-3 col-6">
                 <Item item={ ele }></Item>
             </div>
         ))

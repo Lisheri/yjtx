@@ -4,11 +4,14 @@
   padding: 0;
 }
 
-html,
-body,
-#root,
-.App {
+html, body, #root, .App {
   height: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    height: auto;
+  }
 }
 
 .full-height {
