@@ -1,13 +1,7 @@
 .list-container {
-
-
     >.container {
-        padding: 30px 0;
-        height: calc(100% - 42px - 197px);
-
+        padding: 30px 10px;
         .row {
-            // height: calc(100% - 54px);
-            //without pagination
             height: 100%;
             overflow: auto;
         }

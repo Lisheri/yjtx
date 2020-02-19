@@ -5,7 +5,7 @@ import Item from './Item/Item';
 import Jumbotron from '../components/Jumbotron/Jumbotron';
 import ContactModal from '../components/ContactModal/ContactModal';
 // import Pagination from './Pagination/Pagination';
-import { oppo, apple, huawei, glory, allPhones } from '../data/oppo';
+import { oppo, apple, huawei, glory, allPhones, vivo } from '../data/oppo';
 export class List extends Component {
     constructor() {
         super();
@@ -44,7 +44,7 @@ export class List extends Component {
             case 'glory':
                 list = glory;
                 break;
-            case 'vivo': list = []; break;
+            case 'vivo': list = vivo; break;
             case '配件专区': list = []; break;
             default:
                 //所有产品

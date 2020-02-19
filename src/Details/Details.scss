@@ -1,14 +1,22 @@
+.main-area {
+    // min-height: calc(100vh - 40px);
+}
+
 .item-details-container {
 
     .main-area {
-        overflow: auto;
-        height: calc(100% - 254px);
+        h3 {
+            color: orange;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            margin-bottom: 10px;
+        }
     }
 
     .left,
-    .right {
-        height: 100%;
-    }
+    .right {}
 
     .left {
         >img {

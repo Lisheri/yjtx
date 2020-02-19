@@ -26,9 +26,9 @@ export class Details extends Component {
                     <div className="row full-height">
                         <Left img={ item.img }  ></Left>
                         <div className="col-md-4 right">
-                            <h1 >{ item.name }</h1>
-                            <h3>￥{ item.price }</h3>
-                            <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                            <h4>{ item.name }</h4>
+                            <h3 >￥{ item.price }</h3>
+                            <button type="button" className="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
                                 联系我们,购买
                             </button>
                         </div>
