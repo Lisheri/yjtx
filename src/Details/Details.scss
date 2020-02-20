@@ -20,8 +20,14 @@
     }
 
     .left {
-        >img {
-            max-width: 100%;
+        >a {
+            display: block;
+
+
+            img {
+                max-width: 100%;
+
+            }
         }
 
         .thumb-nails-container {

@@ -14,8 +14,6 @@ export class Details extends Component {
             <div className='item-details-container full-height'>
                 <Jumbotron title={ 'asdas' }></Jumbotron>
                 <ContactModal></ContactModal>
-
-
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><Link to="/">vivo手机</Link></li>
@@ -24,7 +22,7 @@ export class Details extends Component {
                 </nav>
                 <div className="main-area container">
                     <div className="row full-height">
-                        <Left img={ item.img }  ></Left>
+                        <Left img={ item.img } name={ item.name }  ></Left>
                         <div className="col-md-4 right">
                             <h4>{ item.name }</h4>
                             <h3 >￥{ item.price }</h3>

@@ -933,8 +933,348 @@ export const vivo = [{
     "price": 1798,
     "id": "vivo30"
 }];
-export const plugins = [];
+export const plugins = [{
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-64G- 内存卡",
+    "count": 3,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/92a1e133-9657-4d2f-9164-59bb0b18a5d8.jpg@0-9-790-790a_480w_480h.jpg",
+    "price": "168元",
+    "id": "plugin1"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-8G- 内存卡",
+    "count": 7,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/a6dd1ace-c1b9-4b4b-9e1c-b73a5e50af2c.jpg@0-7-790-790a_480w_480h.jpg",
+    "price": "68元",
+    "id": "plugin2"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-耳机- RM-106",
+    "count": 34,
+    "img": "https://oss.dinghuo123.com/product/detail/images/324398/4d2af281-9425-40ee-8ba0-e86dfe1c93aa.jpg",
+    "price": "38元",
+    "id": "plugin3"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-华为-Mate30-犀牛系列钢化膜- CL-56",
+    "count": 1,
+    "img": "https://oss.dinghuo123.com/product/detail/images/324398/bda7788a-743a-49d0-91ca-3d42d9b376cd.jpg",
+    "price": "98元",
+    "id": "plugin4"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-简尚移动电源-充电宝- RPP-153",
+    "count": 57,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/bac59ba5-9934-4687-99e1-5d6fc3957155.jpg@0-0-1000-1000a_480w_480h.jpg",
+    "price": "148元",
+    "id": "plugin5"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-盲插-至尊Pro-电源套装- RP-U112",
+    "count": 4,
+    "img": "https://oss.dinghuo123.com/product/detail/images/324398/eab39300-31e3-4891-ac30-c8708ac609ae.jpg",
+    "price": "98元",
+    "id": "plugin6"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-苹果X-帝王防窥钢化膜- GL-35",
+    "count": 2,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/b87862f7-c496-41a6-8615-3e84d0dc7bdc.jpg@480w_480h.jpg",
+    "price": "128元",
+    "id": "plugin7"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-苹果X/XS-磬石系列钢化膜- CL-51",
+    "count": 1,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/b13ce331-edff-4f15-ada5-dd99956f62f6.jpg@480w_480h.jpg",
+    "price": "98元",
+    "id": "plugin8"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-苹果XR-帝王防窥钢化膜- GL-35",
+    "count": 2,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/b87862f7-c496-41a6-8615-3e84d0dc7bdc.jpg@480w_480h.jpg",
+    "price": "128元",
+    "id": "plugin9"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-苹果XR-磬石系列钢化膜 CL-51",
+    "count": 1,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/b13ce331-edff-4f15-ada5-dd99956f62f6.jpg@480w_480h.jpg",
+    "price": "98元",
+    "id": "plugin10"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-苹果XsMax-帝王防窥钢化膜- GL-35",
+    "count": 2,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/b87862f7-c496-41a6-8615-3e84d0dc7bdc.jpg@480w_480h.jpg",
+    "price": "128元",
+    "id": "plugin11"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-苹果XsMax-磬石系列钢化膜- CL-51",
+    "count": 1,
+    "img": "https://oss.dinghuo123.com/images/productImage/324398/b13ce331-edff-4f15-ada5-dd99956f62f6.jpg@480w_480h.jpg",
+    "price": "98元",
+    "id": "plugin12"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-鱼鹰-X11- 32G-U盘",
+    "count": 3,
+    "img": "https://oss.dinghuo123.com/product/detail/images/324398/653ae6d5-24bf-44f0-964a-07ff4f7edf24.jpg",
+    "price": "98元",
+    "id": "plugin13"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "Remax-",
+    "name": "Remax-鱼鹰-X11- 64G-U盘",
+    "count": 3,
+    "img": "https://oss.dinghuo123.com/product/detail/images/324398/653ae6d5-24bf-44f0-964a-07ff4f7edf24.jpg",
+    "price": "128元",
+    "id": "plugin14"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "TP-",
+    "name": "TP-路由器-双千兆",
+    "count": 11,
+    "img": "http://img005.hc360.cn/hb/nEyf5bbA3DACC334EEA0CA8112f130C3265.jpg",
+    "price": "298元",
+    "id": "plugin15"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "步步高-",
+    "name": "步步高-原装安卓数据线",
+    "count": 2,
+    "img": "http://image3.suning.cn/b2c/catentries/000000000131174416_1_400x400.jpg",
+    "price": "68元",
+    "id": "plugin16"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "步步高-",
+    "name": "步步高-原装盲插数据线",
+    "count": 4,
+    "img": "http://image3.suning.cn/b2c/catentries/000000000131174416_1_400x400.jpg",
+    "price": "68元",
+    "id": "plugin17"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "步步高-",
+    "name": "步步高-原装塑封耳机",
+    "count": 1,
+    "img": "http://img31.ddimg.cn/75/24/1180500231-1_u_1.jpg",
+    "price": "68元",
+    "id": "plugin18"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "唱吧小巨蛋-",
+    "name": "唱吧小巨蛋-音响",
+    "count": 1,
+    "img": "https://img.alicdn.com/bao/uploaded/i2/268451883/O1CN01AvHcmz1PmSNKZdnbK_!!0-item_pic.jpg_200x200.jpg",
+    "price": "479元",
+    "id": "plugin19"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-D91-02-",
+    "name": "品胜-D91-02-LED屏显充电宝",
+    "count": 1,
+    "img": "https://img.alicdn.com/bao/uploaded/i2/2017433305/O1CN011qiUNv1aHjYY0AiCc_!!2017433305.jpg_310x310.jpg",
+    "price": "198元",
+    "id": "plugin20"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-ipad2A充头",
+    "count": 2,
+    "img": "http://pic.ulecdn.com/item/user_800116911/desc20170322/72181418c47c582a_800x-1.jpg",
+    "price": "98元",
+    "id": "plugin21"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-LCD电库20000毫安",
+    "count": 1,
+    "img": "http://img.alicdn.com/tfscom/i2/TB146odOXXXXXXvXFXXXXXXXXXX_!!0-item_pic.jpg_220x220.jpg",
+    "price": "298元",
+    "id": "plugin22"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-LED备电10000毫安",
+    "count": 6,
+    "img": "http://img11.360buyimg.com/n1/jfs/t1888/112/2055243402/129878/f46e09e1/56a9a281N97cfab09.jpg",
+    "price": "168元",
+    "id": "plugin23"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-安卓数据线",
+    "count": 3,
+    "img": "http://img10.360buyimg.com/n1/jfs/t2236/351/890455577/50693/4cb86420/562f3d61N35602a65.jpg",
+    "price": "28.8元",
+    "id": "plugin24"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-车充",
+    "count": 1,
+    "img": "http://ec4.images-amazon.com/images/I/31im2GzjT2L._SY300_.jpg",
+    "price": "38.8元",
+    "id": "plugin25"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-磁铁-三合一数据线",
+    "count": 2,
+    "img": "http://img.alicdn.com/imgextra/i2/2200599390489/O1CN010dOQud1FU0EruLbn8_!!2200599390489.jpg_440x440.jpg",
+    "price": "48.8元",
+    "id": "plugin26"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-电霸五代10000毫安",
+    "count": 1,
+    "img": "http://img.go007.com/2016/12/11/57a7d300837f4aee_0.jpg",
+    "price": "198元",
+    "id": "plugin27"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-读卡器",
+    "count": 2,
+    "img": "http://image.suning.cn/uimg/sop/commodity/158269659912641790505441_x.jpg",
+    "price": "19.8元",
+    "id": "plugin28"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-盲插数据线",
+    "count": 7,
+    "img": "http://img3.tbcdn.cn/tfscom/i3/TB1glpAKXXXXXXJXXXXXXXXXXXX_!!0-item_pic.jpg",
+    "price": "19.8元",
+    "id": "plugin29"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-苹果6Splus-钢化膜",
+    "count": 14,
+    "img": "http://thumb.kantu.com/tk6091851/559598972037/i2/img/2/TB1KCaCqCtYBeNjSspkXXbU8VXa_!!0-item_pic.jpg_250x250.jpg",
+    "price": "19.8元",
+    "id": "plugin30"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-苹果数据线",
+    "count": 13,
+    "img": "29.9元",
+    "price": "29.8元",
+    "id": "plugin31"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-三合一数据线",
+    "count": 4,
+    "img": "http://p1.meituan.net/0.0/deal/6111f6052458734f58572eb7595d8f6b61686.jpg",
+    "price": "48.8元",
+    "id": "plugin32"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-充电宝-四喜丸子",
+    "count": 1,
+    "img": "https://p0.ssl.qhimgs1.com/sdr/400__/t01f78bb1222795d4c4.jpg",
+    "price": "128元",
+    "id": "plugin33"
+}, {
+    "vendor": "尹记通讯",
+    "store": "一店",
+    "type": "配件",
+    "brand": "品胜-",
+    "name": "品胜-掌心充电宝-D92",
+    "count": 1,
+    "img": "http://img.qd256.com/editor/attached/20191203/20191203140207_66976.jpg",
+    "price": "198元",
+    "id": "plugin34"
+}];
 
 //所有手机
-export const allPhones = oppo.concat(apple).concat(huawei).concat(vivo).concat(glory);
+export const allPhones = oppo.concat(apple).concat(huawei).concat(vivo).concat(glory).concat(plugins);
 export default allPhones;
