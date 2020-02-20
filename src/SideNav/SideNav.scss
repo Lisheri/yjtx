@@ -1,7 +1,22 @@
 .side-nav {
-    #search-input {
-        width: 200px !important;
-        margin-right: 10px;
-        margin-left: 11px;
+    div.form-inline {
+        position: relative;
+
+        img {
+            width: 1rem;
+            position: absolute;
+            left: 1.2rem;
+        }
+
+        //宽频取消该设计
+        width: 100%;
+
+        #search-input {
+            width: calc(100% - 120px);
+            max-width: 300px;
+            margin-right: 10px;
+            margin-left: 11px;
+            padding-left: 28px;
+        }
     }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import searchLogo from '../assets/icons/搜索.svg';
 import './SideNav.scss';
 const SideNav = ({ searchItems }) => {
     return (
@@ -13,8 +14,9 @@ const SideNav = ({ searchItems }) => {
                 <Link to="/list/glory" className="nav-link" >荣耀</Link>
                 <Link to="/list/配件专区" className="nav-link" >配件专区</Link>
                 <div class="form-inline my-2 my-lg-0">
-                    <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button onClick={ searchItems } class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+                    <img src={ searchLogo } alt="" />
+                    <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="输入商品名称" aria-label="Search" />
+                    <button onClick={ searchItems } class="btn btn-outline-success my-2 my-sm-0" type="button">搜索商品</button>
                 </div>
             </ul>
         </div>

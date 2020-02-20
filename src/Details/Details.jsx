@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Left from './Left/Left';
 import ContactModal from '../components/ContactModal/ContactModal';
 import serverData from '../data/oppo';
+import cartLogo from '../assets/icons/购买.svg'
 export class Details extends Component {
     render() {
 
@@ -12,7 +13,7 @@ export class Details extends Component {
         const item = serverData.find(ele => ele.id == id);
         return (
             <div className='item-details-container full-height'>
-                <Jumbotron title={ 'asdas' }></Jumbotron>
+                <Jumbotron ></Jumbotron>
                 <ContactModal></ContactModal>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -27,7 +28,8 @@ export class Details extends Component {
                             <h4>{ item.name }</h4>
                             <h3 >￥{ item.price }</h3>
                             <button type="button" className="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">
-                                联系我们,购买
+                                <img src={ cartLogo } alt="" />
+                                联系购买
                             </button>
                         </div>
                     </div>

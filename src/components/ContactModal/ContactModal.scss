@@ -1,0 +1,27 @@
+.contact-modal {
+    img {
+        width: 30px;
+    }
+
+    .modal-title {
+        img {
+            width: 28px;
+            position: relative;
+            top: -2px;
+            left: 2px;
+        }
+    }
+
+    .modal-body {
+        >div {
+            padding: 5px 0;
+
+            span {
+                width: 80px;
+                display: inline-block;
+            }
+
+
+        }
+    }
+}

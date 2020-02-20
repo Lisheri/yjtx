@@ -1,3 +1,8 @@
+.lightbox {
+    top: 50% !important;
+    transform: translate(0, -50%);
+}
+
 .main-area {
     // min-height: calc(100vh - 40px);
 }
@@ -12,6 +17,13 @@
 
         .btn {
             margin-bottom: 10px;
+
+            >img {
+                width: 16px;
+                position: relative;
+                bottom: 1px;
+                right: 5px;
+            }
         }
     }
 
