@@ -11,7 +11,7 @@ const Item = ({ item }) => {
             </Link>
             <div className="card-body">
                 <h5 className="card-title">{ item.name }</h5>
-                <p className="card-text"><strong>￥</strong>     { item.price }</p>
+                <p className="card-text"><strong>￥</strong>{ item.price }</p>
                 <Link to={ linkAdd } className="btn btn-primary">查看详情</Link>
 
                 <button type="button" className="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">

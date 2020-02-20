@@ -9,8 +9,14 @@ body,
 #root,
 .App {
 
-  >*::-webkit-scrollbar,
-  >* ::-webkit-scrollbar-track {
+  &::-webkit-scrollbar,
+  &::-webkit-scrollbar-track {
+    display: none;
+    width: 0;
+  }
+
+  *::-webkit-scrollbar,
+  * ::-webkit-scrollbar-track {
     display: none;
     width: 0;
     /*隐藏滚轮*/

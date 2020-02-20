@@ -1,6 +1,7 @@
 .list-container {
     >.container {
         padding: 30px 10px;
+
         .row {
             height: 100%;
             overflow: auto;
@@ -8,6 +9,28 @@
 
         .pagination {
             margin-bottom: 0;
+        }
+    }
+
+    .card {
+        .card-text {
+            color: orange;
+        }
+
+        .card-body {
+
+            .btn {
+                width: 92px;
+                display: block;
+
+                margin: auto;
+
+                &.btn-success {
+                    margin-top: 5px;
+                }
+            }
+
+
         }
     }
 }
