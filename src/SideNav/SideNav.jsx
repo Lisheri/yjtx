@@ -2,17 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import searchLogo from '../assets/icons/搜索.svg';
 import './SideNav.scss';
-const SideNav = ({ searchItems }) => {
+const SideNav = ({ searchItems, currentLink = "all" }) => {
+
     return (
-        <div className="side-nav">
-            <ul className="nav ">
-                <Link to='/list/all' className="nav-link">全部手机</Link>
-                <Link to="/list/apple" className="nav-link " >苹果</Link>
-                <Link to="/list/oppo" className="nav-link " >oppo</Link>
-                <Link to="/list/vivo" className="nav-link" >vivo</Link>
-                <Link to="/list/华为" className="nav-link" >华为</Link>
-                <Link to="/list/glory" className="nav-link" >荣耀</Link>
-                <Link to="/list/配件专区" className="nav-link" >配件专区</Link>
+        <div className="side-nav ">
+            <ul className="nav nav-pills">
+                <Link to='/list/all' className={ currentLink === "all" ? "nav-link active" : "nav-link " }>全部手机</Link>
+                <Link to="/list/apple" className={ currentLink === "apple" ? "nav-link active" : "nav-link " } >苹果</Link>
+                <Link to="/list/oppo" className={ currentLink === "oppo" ? "nav-link active" : "nav-link " } >oppo</Link>
+                <Link to="/list/vivo" className={ currentLink === "vivo" ? "nav-link active" : "nav-link " } >vivo</Link>
+                <Link to="/list/华为" className={ currentLink === "华为" ? "nav-link active" : "nav-link " } >华为</Link>
+                <Link to="/list/glory" className={ currentLink === "glory" ? "nav-link active" : "nav-link " } >荣耀</Link>
+                <Link to="/list/配件专区" className={ currentLink === "配件专区" ? "nav-link active" : "nav-link " } >配件专区</Link>
                 <div class="form-inline my-2 my-lg-0">
                     <img src={ searchLogo } alt="" />
                     <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="输入商品名称" aria-label="Search" />

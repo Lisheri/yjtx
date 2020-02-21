@@ -1,10 +1,24 @@
 .list-container {
     >.container {
-        padding: 30px 10px;
+        // padding: 30px 10px;
+        padding: 0;
+        padding: 20px 0 50px 0;
 
         .row {
             height: 100%;
             overflow: auto;
+
+            .col-6 {
+                padding: 0;
+
+                .item {
+                    margin: 2px 0;
+
+                    &:nth-child(odd) {
+                        margin-right: 5px;
+                    }
+                }
+            }
         }
 
         .pagination {
@@ -33,3 +47,5 @@
         }
     }
 }
+
+@media screen and (max-width: 400px) {}

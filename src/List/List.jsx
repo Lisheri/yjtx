@@ -79,7 +79,9 @@ export class List extends Component {
         return (
             <div className="list-container full-height">
                 <Jumbotron></Jumbotron>
-                <TopNav searchItems={ this.onSearchHandler }></TopNav>
+                <TopNav
+                    currentLink={ this.props.match.params.brand || "all" }
+                    searchItems={ this.onSearchHandler }></TopNav>
                 <ContactModal></ContactModal>
                 <div className="container">
                     <div className="row">

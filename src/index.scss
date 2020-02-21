@@ -26,7 +26,10 @@ body,
 /* height: 100%; */
 
 @media screen and (max-width: 400px) {
-  .App {}
+  .jumbotron.jumbotron-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
 /* .full-height {
