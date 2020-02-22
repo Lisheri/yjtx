@@ -7,16 +7,24 @@
         .row {
             height: 100%;
             overflow: auto;
+            margin-left: 0;
+            margin-right: 0;
 
             .col-6 {
+                &:nth-child(odd) {
+                    padding-right: 2.5px;
+                    padding-left: 10px;
+                }
+
+                &:nth-child(even) {
+                    padding-left: 2.5px;
+                    padding-right: 10px;
+                }
+
                 padding: 0;
 
                 .item {
                     margin: 2px 0;
-
-                    &:nth-child(odd) {
-                        margin-right: 5px;
-                    }
                 }
             }
         }

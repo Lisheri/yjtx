@@ -9,6 +9,7 @@ import Spinner from './components/Spinner/Spinner';
 const List = React.lazy(() => import('./List/List.jsx'));
 const Details = React.lazy(() => import('./Details/Details.jsx'));
 //TODO: 图片尺寸条对错误情况提示(没有后端交互,后期加入),下滑懒加载,价格区间,列表加入display(各个品牌标志banner)
+//TODO: 还是有滚动条
 function App() {
   return (
     <ErrorBoundary>

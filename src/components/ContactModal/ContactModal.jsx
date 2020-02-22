@@ -1,7 +1,9 @@
 import React from 'react';
 import phoneLogo from '../../assets/icons/电话.svg';
 import wechatLogo from '../../assets/icons/微信.svg';
+import homePhoneLogo from '../../assets/icons/座机.svg';
 import csLogo from '../../assets/icons/客服.svg';
+import qrCode from '../../assets/qr_code/客服1.jpg';
 import './ContactModal.scss';
 const ContactModal = () => {
     return (
@@ -21,12 +23,27 @@ const ContactModal = () => {
                         <div>
                             <span>
                                 <img src={ phoneLogo } alt="手机" />
-                                <img src={ wechatLogo } alt="微信" /> :
+                                :
                             </span>
-                            15228309555
+
+
+                            <span className="text-success">
+                                15228309555
+                                </span>
                         </div>
                         <div>
-                            <span>座机电话: </span>0816-5228088 <small className="text-secondary">(疫情期间暂不可用)</small>
+                            <span>
+                                <img src={ homePhoneLogo } alt="座机" />
+                                : </span>
+
+                            <span className="text-success">0816-5228088
+                                    </span>
+                        </div>
+                        <div>
+                            <span>
+                                <img src={ wechatLogo } alt="微信" />:
+                            </span>
+                            <img className='qr-code' src={ qrCode } alt="二维码" />
                         </div>
                     </div>
                     <div className="modal-footer">

@@ -8,7 +8,7 @@ import serverData from '../data/oppo';
 import cartLogo from '../assets/icons/购买.svg'
 export class Details extends Component {
     render() {
-
+        
         const id = this.props.match.params.id;
         const item = serverData.find(ele => ele.id == id);
         return (
