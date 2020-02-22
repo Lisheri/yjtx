@@ -38,14 +38,14 @@ export class List extends Component {
             case 'oppo':
                 list = oppo;
                 break;
-            case '华为':
+            case 'huawei':
                 list = huawei;
                 break;
             case 'glory':
                 list = glory;
                 break;
             case 'vivo': list = vivo; break;
-            case '配件专区': list = plugins; break;
+            case 'plugin': list = plugins; break;
             default:
                 //所有产品
                 list = allPhones;
@@ -70,12 +70,15 @@ export class List extends Component {
     render() {
 
         //搜索逻辑 有待提高
-        const displayList = this.state.currentList.filter(ele => ele.name.toLowerCase().indexOf(this.state.filter.toLowerCase()) !== -1).map((ele, index) => (
+
+
+        const filteredPlayList = this.state.filter ? this.state.currentList.filter(ele => ele.name.toLowerCase().indexOf(this.state.filter.toLowerCase()) !== -1) : this.state.currentList;
+        const displayList = filteredPlayList.map((ele, index) => (
             <div
                 key={ index } className="col-sm-4 col-md-3 col-6">
                 <Item item={ ele }></Item>
             </div>
-        ))
+        ));
         return (
             <div className="list-container full-height">
                 <Jumbotron></Jumbotron>

@@ -8,17 +8,38 @@ import serverData from '../data/oppo';
 import cartLogo from '../assets/icons/购买.svg'
 export class Details extends Component {
     render() {
-        
         const id = this.props.match.params.id;
         const item = serverData.find(ele => ele.id == id);
+        let displayBrand;
+        switch (item.brand) {
+            case 'vivo':
+                displayBrand = 'Vivo'
+                break;
+            case 'oppo':
+                displayBrand = 'Oppo'
+                break;
+            case 'huawei':
+                displayBrand = '华为'
+                break;
+            case 'glory':
+                displayBrand = '荣耀'
+                break;
+            case 'apple':
+                displayBrand = '苹果'
+                break;
+            default:
+                displayBrand = '配件专区'
+                break;
+        }
+
         return (
             <div className='item-details-container full-height'>
                 <Jumbotron ></Jumbotron>
                 <ContactModal></ContactModal>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><Link to="/">vivo手机</Link></li>
-                        <li class="breadcrumb-item active" aria-current="page">findX</li>
+                        <li class="breadcrumb-item"><Link to={ `/list/${item.brand}` }>{ displayBrand }</Link></li>
+                        <li class="breadcrumb-item active" aria-current="page">{ item.name }</li>
                     </ol>
                 </nav>
                 <div className="main-area container">
