@@ -26,7 +26,8 @@ const Display = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="..." className="d-block w-100" alt="..." />
+                    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582463839980&di=d2f5923955c6af4466c073822645e643&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F010588583c063da801219c77b14fe8.jpg" className="d-block w-100" alt="..." />
+
                     <div className="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

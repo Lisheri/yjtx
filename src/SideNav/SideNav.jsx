@@ -14,6 +14,9 @@ const SideNav = ({ searchItems, currentLink = "all" }) => {
                 <Link to="/list/huawei" className={ currentLink === "huawei" ? "nav-link active" : "nav-link " } >华为</Link>
                 <Link to="/list/glory" className={ currentLink === "glory" ? "nav-link active" : "nav-link " } >荣耀</Link>
                 <Link to="/list/plugin" className={ currentLink === "plugin" ? "nav-link active" : "nav-link " } >配件专区</Link>
+                <Link to="/cart" className={ currentLink === "cart" ? "nav-link active" : "nav-link " } >购物车</Link>
+                <Link to="/auth/login" className={ currentLink === "/auth/login" ? "nav-link active" : "nav-link " } >登录</Link>
+                <Link to="/auth/register" className={ currentLink === "/auth/register" ? "nav-link active" : "nav-link " } >注册</Link>
                 <div class="form-inline my-2 my-lg-0">
                     <img src={ searchLogo } alt="" />
                     <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="输入商品名称" aria-label="Search" />
