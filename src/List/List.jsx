@@ -6,6 +6,7 @@ import Jumbotron from '../components/Jumbotron/Jumbotron';
 import ContactModal from '../components/ContactModal/ContactModal';
 // import Pagination from './Pagination/Pagination';
 import { oppo, apple, huawei, glory, allPhones, vivo, plugins } from '../data/oppo';
+import Display from './Display/Display.jsx';
 export class List extends Component {
     constructor() {
         super();
@@ -86,6 +87,7 @@ export class List extends Component {
                     currentLink={ this.props.match.params.brand || "all" }
                     searchItems={ this.onSearchHandler }></TopNav>
                 <ContactModal></ContactModal>
+                <Display></Display>
                 <div className="container">
                     <div className="row">
                         { displayList }
