@@ -1,6 +1,8 @@
 import React from 'react';
-import Wechart from '../../assets/icons/微信.svg'
-const Item = ({ item }) => {
+import { Link } from 'react-router-dom';
+import './Item.scss';
+
+const Item = ({ item, }) => {
     return (
         <div className='cart-item'>
             <div className="cart-item__header">
@@ -8,11 +10,20 @@ const Item = ({ item }) => {
             </div>
             <div className="cart-item__body">
                 <div className="img">
-                    <img src={ Wechart } alt="" />
+                    <Link to={ `/details/${item.id}` }>
+                        <img src={ item.img } alt="" />
+                    </Link>
                 </div>
                 <div className="desc">
-                    { item.name }
+                    <Link to={ `/details/${item.id}` }>
+                        { item.name }
+                    </Link>
+                    <div className="checkout-panel">
+                        选择框(价格)
+                        <button className="btn btn-success">立即购买</button>
+                    </div>
                 </div>
+
             </div>
         </div>
     );
