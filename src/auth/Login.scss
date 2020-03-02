@@ -1,0 +1,40 @@
+.container {
+  .col-md-8.order-md-1 {
+    margin: 0 auto;
+  }
+  .text-center > .btn-group {
+    .btn.btn-secondary {
+        width: 9em;
+    }
+    .btn.btn-secondary:last-child {
+      margin-left: 1em;
+    }
+  }
+
+  .form-signin {
+    .validation {
+      margin-top: 10px;
+    }
+    #pwmsg-box {
+      width: 22em;
+      height: 1em;
+      margin-top: 0.5em;
+      .progress {
+        height: 1.2rem;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        .progress-bar-danger {
+          background-color: #d9534f;
+        }
+        .progress-bar-warning {
+          background-color: #f0ad4e;
+        }
+        .progress-bar-success {
+          background-color: #5cb85c;
+        }
+      }
+    }
+  }
+}
