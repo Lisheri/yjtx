@@ -30,7 +30,7 @@ export class Cart extends Component {
 
         const ListBLock = this.props.loading ? <Spinner fullScreen></Spinner> : (this.props.succeed && <Main totalPrice={ list.reduce((acc, ele) => (acc + Number(ele.price)), 0) } list={ list }></Main>);
         return (
-            <div className="cart-container">
+            <div className="cart-container container">
                 {/* <p>welcome 用户{ this.props.uid }</p> */ }
                 {/*结账modal */ }
 

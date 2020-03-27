@@ -9,17 +9,9 @@
         background-color: #fff;
         margin: 20px 0 20px 0;
 
-        .cart-item__header {
-            padding: 5px 0;
-        }
 
         .cart-item__body {
-            height: 120px;
-
             .img {
-                width: 100px;
-                height: 100px;
-                margin: 10px;
                 cursor: pointer;
 
                 img {
@@ -32,9 +24,6 @@
 
             .desc {
                 cursor: pointer;
-                height: 100%;
-                margin-left: 120px;
-                width: calc(100% - 120px);
             }
         }
 

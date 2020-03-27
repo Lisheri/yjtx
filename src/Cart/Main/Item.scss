@@ -1,0 +1,535 @@
+.cart-item {
+  display: flex;
+  .form-check {
+    width: 3rem;
+    margin: auto 0;
+    .form-check-input {
+      margin: 0;
+      transform: translateY(-50%);
+    }
+  }
+  .cart-item__header{
+    padding: 45px 0;
+  }
+  .cart-item__header.header {
+    padding: 45px 0;
+  }
+  .cart-item__body {
+    height: 120px;
+    .img {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+    .desc {
+      margin-top: 1.25rem;
+      margin-right: 3.125rem;
+      width: 180px;
+      float: left;
+      height: 100%;
+    }
+    .commodityPrice {
+      display: inline-block;
+      margin-top: 2.8125rem;
+    }
+  }
+  .checkout-panel {
+    padding: 41px 0;
+    margin-left: 3.125rem;
+    .btn-group {
+      margin-right: 3.125rem !important;
+      .btn.btn-secondary {
+        color: #000;
+        background-color: #eee;
+        border-color: #eee;
+      }
+      .num-input {
+        color: #000;
+        border: 1px solid #eee;
+        background-color: #fff;
+        width: 3.125rem;
+        outline: none;
+      }
+    }
+    .allPrice {
+      width: 10rem;
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .btn.btn-success {
+      margin-left: 3.125rem;
+    }
+    .btn.btn-delete {
+      margin-left: 0.75rem;
+    }
+  }
+}
+
+.main {
+  .list-header {
+    border: 1px solid rgb(210, 210, 210);
+    height: 50px;
+    position: relative;
+    .form-check {
+      display: inline-block;
+      width: 4rem;
+      height: 50px;
+      padding: 0.8125rem 0;
+      margin-left: 1.5rem;
+      .form-check-input {
+        position: static;
+        margin: 0;
+        display: inline-block;
+        margin-right: 0.75rem;
+      }
+    }
+    .deleteChoose {
+      text-decoration: none;
+      margin-right: 3rem;
+    }
+    .inSpan{
+      text-decoration: none;
+      font-style: normal;
+      color: #007bff;
+    }
+    .chosed {
+      margin-right: 29rem;
+    }
+    .totalPrice {
+      margin-right: 2rem;
+    }
+    .btn.btn-primary {
+      position: absolute;
+      top: 4px;
+    }
+  }
+}
+@media only screen and (max-width:1200px ) {
+  .cart-item {
+    height: 120px;
+    .cart-item__body {
+      width: 450px;
+      .desc {
+        margin-right: 1rem;
+      }
+    }
+    .checkout-panel {
+      margin-left: 0rem;
+      padding: 0;
+      padding-left: 20px;
+      width: 450px;
+      .btn-group {
+        margin-right: 3.125rem !important;
+      }
+      .allPrice {
+        margin-top: 20px;
+      }
+      .btn.btn-success {
+        margin-top: 10px;
+        margin-left: 0rem;
+      }
+      .btn.btn-delete {
+        margin-left: 0.75rem;
+      }
+    }
+  }
+  .main {
+    .list-header {
+      .chosed {
+        margin-right: 18rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:992px ) {
+  .cart-container {
+    .cart-item {
+      height: 120px;
+
+      .cart-item__body {
+        width: 300px;
+
+        .desc {
+          margin-right: 1rem;
+          width: 100px;
+        }
+      }
+
+      .checkout-panel {
+        margin-left: 0rem;
+        padding: 0;
+        padding-left: 20px;
+        width: 320px;
+
+        .btn-group {
+          margin-right: 3.125rem !important;
+        }
+
+        .allPrice {
+          margin-top: 20px;
+          width: 5rem;
+        }
+
+        .btn.btn-success {
+          margin-top: 10px;
+          margin-left: 0rem;
+        }
+
+        .btn.btn-delete {
+          margin-left: 0.75rem;
+        }
+      }
+    }
+
+    .main {
+      .list-header {
+        .chosed {
+          margin-right: 5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:768px ) {
+  .cart-container {
+    .cart-item {
+      height: 150px;
+
+      .cart-item__header {
+        padding: 60px 0;
+      }
+
+      .cart-item__body {
+        width: 300px;
+        height: 150px;
+        .img {
+          margin: 25px 10px 25px 10px;
+        }
+        .desc {
+          margin-right: 1rem;
+          width: 60px;
+        }
+      }
+
+      .checkout-panel {
+        margin-left: 0rem;
+        padding: 0;
+        padding-left: 10px;
+        width: 200px;
+
+        .btn-group {
+          margin-right: 1.125rem !important;
+        }
+
+        .allPrice {
+          margin-top: 5px;
+          width: 5rem;
+          display: block;
+          margin-left: 1px;
+        }
+
+        .btn.btn-success {
+          margin-top: 5px;
+          margin-left: 0rem;
+        }
+
+        .btn.btn-delete {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+
+    .main {
+      .list-header {
+        height: 100px;
+        .chosed {
+          margin-right: 6rem;
+          display: inline-block;
+          width: 122px;
+        }
+        .deleteChoose {
+          width: 120px;
+          display: inline-block;
+          margin-right: 5rem;
+        }
+        .totalPrice {
+          position: absolute;
+          left: 25px;
+          top: 65px;
+        }
+        .btn {
+          position: absolute;
+          left: 160px;
+          top: 55px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:576px ) {
+  .cart-container {
+    .cart-item {
+      height: 180px;
+
+      .cart-item__header {
+        padding: 75px 0;
+      }
+
+      .cart-item__body {
+        width: 300px;
+        height: 180px;
+        .img {
+          width: 80px;
+          height: 80px;
+          margin: 25px 10px 25px 10px;
+        }
+        .desc {
+          margin-right: 1rem;
+          width: 100px;
+          height: 65%;
+        }
+        .commodityPrice {
+          display: block;
+          margin-top: 9rem;
+          text-align: left;
+        }
+      }
+
+      .checkout-panel {
+        margin-left: 0rem;
+        padding: 0;
+        padding-left: 10px;
+        width: 200px;
+
+        .btn-group {
+          margin-right: 1.125rem !important;
+          margin-top: 10px;
+        }
+
+        .allPrice {
+          margin-top: 5px;
+          width: 5rem;
+          display: block;
+          margin-left: 1px;
+        }
+
+        .btn.btn-success {
+          margin-top: 5px;
+          margin-left: 0rem;
+        }
+
+        .btn.btn-delete {
+          margin-left: 0rem;
+        }
+      }
+    }
+
+    .main {
+      .list-header {
+        height: 100px;
+        .chosed {
+          margin-right: 6rem;
+          display: inline-block;
+          width: 122px;
+        }
+        .deleteChoose {
+          width: 120px;
+          display: inline-block;
+          margin-right: 2rem;
+        }
+        .totalPrice {
+          position: absolute;
+          left: 25px;
+          top: 65px;
+        }
+        .btn {
+          position: absolute;
+          left: 160px;
+          top: 55px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:375px ) {
+  .cart-container {
+    .cart-item {
+      height: 240px;
+
+      .cart-item__header {
+        padding: 105px 0;
+      }
+
+      .cart-item__body {
+        width: 300px;
+        height: 240px;
+        .img {
+          width: 80px;
+          height: 80px;
+          margin: 5px 10px 5px 10px;
+        }
+        .desc {
+          margin-left: 10px;
+          margin-right: 1rem;
+          width: 100px;
+          height: 30%;
+        }
+        .commodityPrice {
+          display: block;
+          margin-top: 7rem;
+          text-align: left;
+        }
+      }
+
+      .checkout-panel {
+        margin-left: 0rem;
+        padding: 0;
+        padding-left: 10px;
+        width: 200px;
+
+        .btn-group {
+          margin-right: 1.125rem !important;
+          margin-top: 50px;
+        }
+
+        .allPrice {
+          margin-top: 5px;
+          width: 5rem;
+          display: block;
+          margin-left: 1px;
+        }
+
+        .btn.btn-success {
+          margin-top: 5px;
+          margin-left: 0rem;
+        }
+
+        .btn.btn-delete {
+          margin-left: 0rem;
+        }
+      }
+    }
+
+    .main {
+      .list-header {
+        height: 100px;
+        .form-check {
+          margin-left: 1rem;
+        }
+        .chosed {
+          margin-right: 1rem;
+          display: inline-block;
+          width: 122px;
+        }
+        .deleteChoose {
+          width: 120px;
+          display: inline-block;
+          margin-right: 0rem;
+        }
+        .totalPrice {
+          position: absolute;
+          left: 25px;
+          top: 65px;
+        }
+        .btn {
+          position: absolute;
+          left: 160px;
+          top: 55px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:414px ) {
+  .cart-container {
+    .cart-item {
+      height: 240px;
+
+      .cart-item__header {
+        padding: 105px 0;
+      }
+
+      .cart-item__body {
+        width: 300px;
+        height: 240px;
+        .img {
+          width: 80px;
+          height: 80px;
+          margin: 5px 10px 5px 10px;
+        }
+        .desc {
+          margin-left: 10px;
+          margin-right: 1rem;
+          width: 100px;
+          height: 30%;
+        }
+        .commodityPrice {
+          display: block;
+          margin-top: 7rem;
+          text-align: left;
+        }
+      }
+
+      .checkout-panel {
+        margin-left: 0rem;
+        padding: 0;
+        padding-left: 10px;
+        width: 200px;
+
+        .btn-group {
+          margin-right: 1.125rem !important;
+          margin-top: 50px;
+        }
+
+        .allPrice {
+          margin-top: 5px;
+          width: 5rem;
+          display: block;
+          margin-left: 1px;
+        }
+
+        .btn.btn-success {
+          margin-top: 5px;
+          margin-left: 0rem;
+        }
+
+        .btn.btn-delete {
+          margin-left: 0rem;
+        }
+      }
+    }
+
+    .main {
+      .list-header {
+        height: 100px;
+        .form-check {
+          margin-left: 1rem;
+        }
+        .chosed {
+          margin-right: 1rem;
+          display: inline-block;
+          width: 122px;
+        }
+        .deleteChoose {
+          width: 120px;
+          display: inline-block;
+          margin-right: 0rem;
+        }
+        .totalPrice {
+          position: absolute;
+          left: 25px;
+          top: 65px;
+        }
+        .btn {
+          position: absolute;
+          left: 160px;
+          top: 55px;
+        }
+      }
+    }
+  }
+}
